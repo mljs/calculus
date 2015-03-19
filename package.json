@@ -1,46 +1,41 @@
 {
-  "name": "spectra-data",
-  "version": "1.0.2",
-  "description": "spectra-data project - manipulate spectra",
-  "keywords": [
-    "spectra-data",
-    "project"
-  ],
-  "config": {
-    "name": "spectra-data"
-  },
-  "author": "Andres Castillo, Luc Patiny and Michaël Zasso",
-  "repository": "cheminfo-js/spectra-data",
-  "bugs": {
-    "url": "https://github.com/cheminfo-js/spectra-data/issues"
-  },
-  "homepage": "https://github.com/cheminfo-js/spectra-data",
-  "license": "MIT",
-  "main": "./src/index.js",
+  "name": "calculus",
+  "version": "1.0.0",
+  "description": "Calculus methods library",
+  "main": "src/index.js",
   "directories": {
     "lib": "src",
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --require should --reporter mocha-better-spec-reporter --recursive",
-    "build": "gulp build"
+    "test": "mocha --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mljs/calculus.git"
+  },
+  "keywords": [
+    "calculus",
+    "derivate",
+    "integral",
+    "numerical",
+    "methods",
+    "analysis",
+    "machine",
+    "learning"
+  ],
+  "author": "Jefferson Hernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mljs/calculus/issues"
+  },
+  "homepage": "https://github.com/mljs/calculus",
+  "dependencies": {
+    "mathjs": "latest"
   },
   "devDependencies": {
-    "browserify": "^8.1.3",
-    "del": "^1.1.1",
-    "gulp": "^3.8.11",
-    "gulp-header": "^1.2.2",
-    "gulp-rename": "^1.2.0",
-    "gulp-sourcemaps": "^1.3.0",
-    "gulp-uglify": "^1.1.0",
     "mocha": "latest",
-    "mocha-better-spec-reporter": "latest",
     "should": "latest",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.0.0"
-  },
-  "dependencies": {
-    "jcampconverter": "^2.0.7",
-    "ml-stat": "^1.0.1"
+    "should-approximately-deep": "latest"
   }
 }

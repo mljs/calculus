@@ -1,4 +1,4 @@
-var math = require("../lib/math");
+var math = require('mathjs');
 
 Integrals = {
 	/*
