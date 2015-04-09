@@ -1,0 +1,31 @@
+{
+  "name": "calculus",
+  "version": "1.0.0",
+  "description": "Calculus library",
+  "keywords": [
+    "Calculus",
+    "derivate",
+    "integral",
+    "numerical",
+    "methods",
+    "analisys"
+  ],
+  "main": [
+    "dist/calculus.js",
+    "dist/calculus.min.js"
+  ],
+  "authors": [
+    "Jefferson Hernández"
+  ],
+  "homepage": "https://github.com/mljs/calculus",
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "/*",
+    "!dist/*"
+  ]
+}
